@@ -339,7 +339,7 @@ fi
 
 # install speedtest
 if  [ ! -e './speedtest.py' ]; then
-    wget https://raw.github.com/sivel/speedtest-cli/master/speedtest.py --no-check-certificate > /dev/null 2>&1
+    wget https://raw.github.com/sivel/speedtest-cli/master/speedtest.py --no-check-certificate 
 fi
 chmod a+rx speedtest.py
 
