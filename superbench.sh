@@ -128,6 +128,7 @@ speed() {
 	speed_test '5192' "Xi'an     CM"
 	speed_test '4665' 'Shanghai  CM'
 	speed_test '4575' 'Chengdu   CM'
+	speed_test '5122' 'Wuxi      CM'
 	 
 	rm -rf speedtest.py
 }
